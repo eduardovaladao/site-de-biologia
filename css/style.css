@@ -28,6 +28,7 @@ section h2 {
 
 .navbar {
     background-color: var(--dark-green);
+    margin-bottom: 150px;
 }
 
 .navbar-brand,
@@ -40,14 +41,19 @@ section h2 {
 }
 
 .jumbotron {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--cambridge-blue);
     color: var(--dark-green);
-    padding: 2rem 1rem;
-    margin-bottom: 150px;
+    padding: 0;
 }
 
 .jumbotron h1, .jumbotron p {
+    margin-left: 1rem;
     color: var(--white);
+    text-shadow: 1px 1px 2px var(--dark-green);
 }
 
 .left-field {
